@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATE_LOAN_AND_SAVINGS_WITH_CALENDER</title>
+
+    <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="container" class="container">
+<div class="card">
+  <div class="row">
+    <h4 id="Title" class="center bold ">Loan Calculation</h4>
+    <div class="center">
+      <p>Loan Percentage is <b>12.5%</b> And Paid Within <b>45 Weeks.</p>
+    </div>
+
+
+  </div>
+        <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s12 m6">
+                  <i class="material-icons prefix">date_range</i>
+                  <input id="StartingDate" type="text" class="datepicker">
+                  <label for="icon_prefix">Starting Date</label>
+                </div>
+                <div class="input-field col s12 m6">
+                  <i class="material-icons prefix">edit</i>
+                  <input id="LoanAmount" type="number" class="validate">
+                  <label for="icon_telephone">Loan Amount</label>
+                </div>
+              </div>
+              <div class="row">
+                <button id="sub" class=" btn waves-effect waves-light  col s12 m12" type="submit" name="action">Submit
+                  <i class="material-icons right">send</i>
+                </button>
+              </div>
+
+            </form>
+
+        </div>
+
+      </div>
+  </div>
+   <div id="Summery" class="container center #ff4081 pink accent-2 col s12"></div>
+    <div id="results" class="container"></div>
+    
+</body>
+<script src="script.js"></script>
+ <!-- Compiled and minified JavaScript -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+   
+</html>
